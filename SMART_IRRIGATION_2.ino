@@ -13,14 +13,14 @@
 #endif
 U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ 22, /* data=*/ 21, /* reset=*/ U8X8_PIN_NONE); //ESP32 oled
 #include <ThingerESP32.h>
-#define USERNAME "PavalPaval_Thinger"
-#define DEVICE_ID "SOIL_MOISTURE"
-#define DEVICE_CREDENTIAL "WeatherAPI"
-#define SSID "Paval"
-#define SSID_PASSWORD "Paval98765"
+#define USERNAME "Thingerio_username"
+#define DEVICE_ID "Device_name"
+#define DEVICE_CREDENTIAL "Device_passkey"
+#define SSID "network_name"
+#define SSID_PASSWORD "network_passkey"
 ThingerESP32 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 int rawvalue;
-const char* apiKey = "f5091497ea2901adcfd3f3e75d5fb9f3";
+const char* apiKey = "***********";
 float temperature;
 //int humid=2047;
 //int wet=716;
