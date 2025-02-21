@@ -20,7 +20,7 @@ U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ 22, /* data=*/ 21,
 #define SSID_PASSWORD "network_passkey"
 ThingerESP32 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 int rawvalue;
-const char* apiKey = "***********";
+const char* apiKey = "WEATHERAPI_KEY";
 float temperature;
 //int humid=2047;
 //int wet=716;
